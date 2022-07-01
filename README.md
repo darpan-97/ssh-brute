@@ -1,5 +1,4 @@
-# ssh-brute
-Simple python based tool for SSH bruteforcing
+# ssh bruteforcer Simple python based tool for SSH bruteforcing
 
 # INSTALLATION : 
 1. chmod + x install.sh
