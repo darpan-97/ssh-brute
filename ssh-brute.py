@@ -31,5 +31,6 @@ else:
 			except paramiko.ssh_exception.AuthenticationException:
 				print(colored("Password " + password + " is INCORRECT" , 'white','on_red').center(60, " "))
 			attempts += 1
+end = time.time()
 total_time= end - start
 print("\t time (seconds): " + str(total_time))
