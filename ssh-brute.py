@@ -5,7 +5,7 @@ start = time.time()
 banner=pyfiglet.figlet_format("SSH BRUTE FORCER", font = "digital" )
 print(banner)
 if len(sys.argv) != 5:
-	print("USAGE :\npython3 ssh-brute.py [username] [IP address] [port] passwords.txt")
+	print("USAGE :\npython3 ssh-brute.py [username] [IP address] [port] [wordlist file]")
 	end = time.time()
 	total_time= end - start
 	print("\n time (seconds): " + str(total_time))
