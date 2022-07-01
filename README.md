@@ -1,2 +1,6 @@
 # ssh-brute
-Simple python script for SSH bruteforcing
+Simple python based tool for SSH bruteforcing
+
+Installation
+chmod + x install.sh
+./install.sh
