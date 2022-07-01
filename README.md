@@ -2,8 +2,7 @@
 A simple python based tool for SSH bruteforcing
 
 # INSTALLATION : 
-1. chmod + x install.sh
-2. ./install.sh
+pip3 install -r requirements.txt
 
 # USAGE : 
-python3 ssh-brute.py [username] [IP address] [port] passwords.txt
+python3 ssh-brute.py [username] [IP address] [port] [wordlist file]
